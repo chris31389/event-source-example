@@ -20,3 +20,9 @@ Future:
 - terraform
 - containerise
 - AKS
+
+
+
+
+https://medium.com/swlh/simple-event-souring-with-c-ec1eff55ee9d
+https://itnext.io/implementing-event-store-in-c-8a27138cc90 

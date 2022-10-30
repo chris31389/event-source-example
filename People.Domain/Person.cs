@@ -1,7 +1,9 @@
-﻿namespace People.Domain;
+﻿using Tactical.DDD;
 
-public class Person
+namespace People.Domain;
+
+public class Person : AggregateRoot<PersonId>
 {
-    public Guid FingerPrint { get; set; }
-    public string Name { get; }
+    public string? Name { get; set; }
+    public FingerPrint FingerPrint { get; private set; }
 }
